@@ -1,4 +1,4 @@
-# Softcom-Club-Projects
+# SoftCom-Club-Projects
 
 Here you can find various "short" projects' source codes.
 
