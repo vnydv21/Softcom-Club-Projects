@@ -217,8 +217,10 @@ def main(cmdline_access = False):
 
 #----------------------------
 
-# Assume all Access from CommandLine
-# otherwise make changes here....!
-
-main(True)
-
+# Access Point
+if __name__ == '__main__':    
+    # this code is being used twice, better store the result and pass to main
+    if CommandLineCall():
+        main(True)
+    else:
+        main(False)
